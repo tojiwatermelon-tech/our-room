@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Journal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>Shared Journal</h1>
+
+<select id="author">
+  <option value="Me">Me</option>
+  <option value="Other">Other</option>
+</select>
+
+<textarea id="entry" placeholder="Write something..."></textarea>
+<button onclick="addEntry()">Save</button>
+
+<div id="entries"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
